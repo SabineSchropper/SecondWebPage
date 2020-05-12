@@ -3,6 +3,13 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 }
+#diy{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.8;
+}
 h2{
     margin-top: 40px;
     margin-bottom: 25px;
@@ -38,6 +45,8 @@ td,th{
     border-color: rosybrown;
     padding-left: 10px;
     padding-right: 10px;
+    background-image:url(media/upcycling.jpg);
+    background-size: contain;
 }
 .nav{
     font-size: 17px;
@@ -70,7 +79,7 @@ td,th{
     padding:40px;
 }
 .box{
-    padding: 10px;
+    padding: 25px;
     background-color: lemonchiffon;
     flex:auto;
 }
@@ -78,10 +87,10 @@ td,th{
     padding-top: 7em;
     text-align: center;
 }
-#littlePic{
-    width: 150px;
-    height:100px;
+#flex{
+    flex:auto;
 }
+
 #Pic{
     width: 300px;
     height: 200px;

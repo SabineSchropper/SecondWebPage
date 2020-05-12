@@ -3,6 +3,13 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 }
+#diy{
+    background-color: white;
+    width: 90px;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.8;
+}
 h2{
     margin-top: 40px;
     margin-bottom: 25px;
@@ -38,6 +45,7 @@ td,th{
     border-color: rosybrown;
     padding-left: 10px;
     padding-right: 10px;
+    background-image:url(media/werkzeug.jpg);
 }
 .nav{
     font-size: 17px;
@@ -46,6 +54,7 @@ td,th{
     padding-bottom: 5px;
     padding-left:10px;
 }
+  
 .flexbox{
     display:flex;
     flex-direction: row;
@@ -63,7 +72,7 @@ td,th{
     margin-top: 40px;
 }
 .box{
-    padding: 10px;
+    padding: 25px;
     height: 250px;
     background-color: lemonchiffon;
     flex:auto;
