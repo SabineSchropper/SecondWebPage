@@ -2,106 +2,24 @@
 <head>
     <link href="index.css" rel="stylesheet"> 
     <meta charset="utf-8"/>
-    <title>Upcycling</title>
+    <title>Upcycling Log in</title>
+    <script src="index.js"></script>
 </head>
-<body class="marginLeft marginTop marginRight">
-
+<body class="textCenter">
     <div class="boxHeading">
-        <h1 id="diy">Upcycling und DIY</h1>
-        <div class="nav">
-            <span>Upcycling</span><a id="paddingLeft" href="diy.html">DIY</a>
+
+        <h1>Upcycling und DIY</h1>
+        <h2>Einstiegsseite</h2>
+    
+        <div class="box">
+            <input type="text" placeholder="Username" id="username">
+            <br>
+            <input type="password" placeholder="Passwort" id="password">
+            <br>
+            <br>
+            <button type="button" onclick="onButtonClick()">Login</button>
         </div>
+
     </div>
 
-    <h2>Was ist Upcycling?</h2>
-
-        <div class="flexbox">
-            <div class="box">
-            
-                <p> <br> Beim Upcycling werden Abfallprodukte oder nutzlose Stoffe in neuwertige Produkte umgewandelt.
-                    <br>
-                    <br> Im Gegensatz zum Downcycling kommt es bei dieser Form des Recyclings zu einer stofflichen Aufwertung.
-                    <br>
-                    <br> Die Wiederverwertung oder Nachnutzung von bereits vorhandenem Material reduziert die Verwendung von Rohstoffen.
-                    <br>
-                    <br><a href="https://de.wikipedia.org/wiki/Upcycling" target="_blank">Artikel zu Upcycling in Wikipedia</a>
-                </p>
-            </div>
-            <div class="quote">
-                <p>"Upcycling und "Do it yourself" können sich überschneiden,
-                    <br> wenn in DIY - Projekten gebrauchte Gegenstände<br>
-                    oder alte Materialien verwendet werden.
-                    <br>
-                    <br>Jedenfalls gibt es in beiden Bereichen
-                    <br>zahllose Möglichkeiten,
-                    <br>die nur von Fantasie und Können eingegrenzt werden."
-                </p>
-            </div>
-        </div>
-        
-    <h2>Eine kleine Auswahl an Upcycling Möglichkeiten...</h2>
-
-    <div class="flexbox">
-        <div id="flex">
-            <table>
-                <tr>
-                    <th>Material</th>
-                    <th>Woher</th>
-                    <th>Was daraus entsteht</th>
-                    <th>Beispiel</th>
-                </tr>
-                <tr>
-                    <td>Stoff</td>
-                    <td>altes Hemd</td>
-                    <td>Geschenkverpackung für Flaschen</td>
-                    <td><a href="https://www.smarticular.net/upcycling-hemd-naehen-kinderkleid/" target="_blank"><img id="Pic" src="https://www.smarticular.net/wp-content/uploads/2020/02/upcycling-hemd-naehen-kinderkleid-4.jpg" alt="Hemd" title="Geschenkverpackung"/></a></td>
-                </tr>
-                <tr>
-                    <td>Stoff</td>
-                    <td>altes T-Shirt</td>
-                    <td>Mundschutz ohne Nähen</td>
-                    <td><a href="https://www.smarticular.net/mundschutz-aus-t-shirt-selber-machen-upcycling-schutzmaske/" target="_blank"><img id="Pic" src="https://www.smarticular.net/wp-content/uploads/2020/04/mundschutz-aus-t-shirt-selber-machen-1-fb.jpg" alt="Mundschutz" title="Mundschutz"/></a></td>
-                </tr>
-                <tr>
-                    <td>Karton</td>
-                    <td>Verpackung</td>
-                    <td>Katzen Kratzbrett</td>
-                    <td><iframe id="Pic" width="640" height="360" src="https://www.youtube.com/embed/IuPSlqD5hMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td>Holz</td>
-                    <td>Europaletten</td>
-                    <td>Couchtisch</td>
-                    <td><a href="https://www.diy-academy.eu/einrichten-gestalten/upcycling/kategorie/upcycling-moebel/artikel/shabby-couchtisch-aus-paletten/" target="_blank"><img id="Pic" src="https://www.diy-academy.eu/fileadmin/_processed_/8/2/csm_youdoo_Palettentisch_Shabby_Chic_final_3873500920.jpg" alt="Couchtisch" title="Couchtisch"/></a></td>
-                </tr>
-                <tr>
-                    <td>Glas</td>
-                    <td>Altglas</td>
-                    <td>Fantasievolle Vorratsdosen</td>
-                    <td><a href="https://www.stilpalast.ch/living/inspirationen/upcycling-mit-glas-5155" target="_blank"><img id="Pic" src="https://stilpalast.imgix.net/sites/default/files/listiclecollection/image/10926/Backbeha%CC%88lter.jpg?auto=compress%2Cenhance%2Cformat&ch=Save-Data&dpr=2&fit=max&w=653&s=bf435f4e5bc39be424c3acd9275a3a17" alt="Vorratsdosen" title="Fantasievolle Vorratsdosen"/></a></td>
-                </tr>
-                <tr>
-                    <td>Metall</td>
-                    <td>Konservendosen</td>
-                    <td>Schöne Aufbewahrungsmöglichkeit</td>
-                    <td><iframe id="Pic" width="640" height="360" src="https://www.youtube.com/embed/jpcEtLnhNGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                
-            </table>
-        </div>
-        <div id="flex">
-            <img width="350" height="350" src="media/creativePeople.jpg" alt="creativePeople"/>
-        </div>
-    </div>
-    
-    <p class="footer">
-        <span>Sabine Schropper</span>
-        <br>                             
-        <span>Au 52 a, 6842 Koblach</span> 
-        <br>                           
-        <span>sabine.schropper@gmail.com</span>
-    </p>
-
-
-    
 </body>

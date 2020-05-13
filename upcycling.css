@@ -1,0 +1,100 @@
+h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+#diy{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.8;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+table{
+    width: 820px;
+    background-color: linen;
+    text-align: center;
+    font-size: 17px;
+}
+th{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-style: italic;
+}
+td{
+    height: 200px;
+    width: 300px;
+}
+td,th{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
+}
+.boxHeading{
+    height: 130px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rosybrown;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image:url(media/upcycling.jpg);
+    background-size: contain;
+}
+.nav{
+    font-size: 17px;
+    background-color: mistyrose;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+}
+.flexbox{
+    display:flex;
+    flex-direction: row;
+}
+.displayInline{
+    display: inline;
+}
+
+.marginLeft{
+    margin-left: 40px;
+}
+.marginTop{
+    margin-top: 40px;
+}
+.marginRight{
+    margin-right: 40px;
+}
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    flex:auto;
+    padding:40px;
+}
+.box{
+    padding: 25px;
+    background-color: lemonchiffon;
+    flex:auto;
+}
+.footer{
+    padding-top: 7em;
+    text-align: center;
+}
+#flex{
+    flex:auto;
+}
+
+#Pic{
+    width: 300px;
+    height: 200px;
+}
+#paddingLeft{
+    padding-left: 40px;
+}
